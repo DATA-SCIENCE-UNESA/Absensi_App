@@ -26,6 +26,9 @@ photo = Image.open("profile.png")
 resize = photo.resize((130, 130))
 new_photo = ImageTk.PhotoImage(resize)
 
+# test
+
+
 class App():
     def __init__(self, master):
         self.window = master
